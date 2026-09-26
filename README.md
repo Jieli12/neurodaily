@@ -39,3 +39,6 @@ python neurodaily.py
 - `NEWS_EN` / `NEWS_ZH`：新闻检索词
 - `NEWS_EXCLUDE`：要过滤掉的标题词（默认过滤炒股类内容）
 - `PUBMED_MAX`、`ARXIV_MAX`：每天最多抓多少篇
+- `HEART` / `BRAIN`：心脏过滤规则（标题讲心脏、又不涉及脑/神经的内容会被剔除）
+- `CONFERENCES`：脑图像处理相关会议列表（日期、地点、截稿日）。已结束的自动隐藏；每年到官网把下一届日期补进来即可
+- `CONF_NEWS_EN` / `CONF_NEWS_ZH`：“会议动态”的新闻检索词

@@ -84,6 +84,56 @@ ARXIV_MAX = 80
 
 KEEP_SEEN_DAYS = 30   # 去重记录保留天数
 
+# ---- 过滤心脏相关内容：标题讲心脏、且标题里没有脑/神经相关词，就丢弃 ----
+HEART = re.compile(
+    r"\b(heart|hearts|cardiac|cardio\w*|cardiovascular|myocard\w*|coronary|aortic|aorta|"
+    r"atrial fibrillation|arrhythmi\w*|echocardiograph\w*)\b"
+    r"|心脏|心肌|心血管|冠脉|冠状动脉|冠心病|心衰|心力衰竭|心房|心室|心律|房颤|主动脉|心电", re.I)
+BRAIN = re.compile(
+    r"brain|cerebr|cortic|neur|cognit|mental|psychiatr|stroke|dementia|alzheimer|epilep|"
+    r"\bEEG\b|\bMEG\b|fMRI|\bBCI\b|脑|神经|认知|卒中|痴呆|癫痫|精神", re.I)
+
+# ---- 脑图像处理相关会议 ----
+# 已结束的会议自动隐藏；每年看一下官网，把下一届的日期补进来即可。
+# 日期格式 YYYY-MM-DD；deadlines 为 (名称, 日期) 列表，可为空。（信息核对于 2026-09-26）
+CONFERENCES = [
+    # region: "global" 或 "cn"
+    dict(name="MICCAI 2026", full="医学图像计算与计算机辅助介入", region="global",
+         start="2026-09-27", end="2026-10-01", city="法国 斯特拉斯堡", url="https://miccai.org/upcoming-conferences/"),
+    dict(name="SfN Neuroscience 2026", full="美国神经科学学会年会", region="global",
+         start="2026-11-14", end="2026-11-18", city="美国 华盛顿", url="https://www.sfn.org/meetings/neuroscience-2026"),
+    dict(name="SPIE Medical Imaging 2027", full="含 Image Processing 分会", region="global",
+         start="2027-02-14", end="2027-02-18", city="加拿大 温哥华", url="https://spie.org/conferences-and-exhibitions/medical-imaging"),
+    dict(name="ISMRM 2027", full="国际医学磁共振学会年会", region="global",
+         start="2027-05-08", end="2027-05-13", city="加拿大 温哥华", url="https://www.ismrm.org/27m/",
+         deadlines=[("摘要截止", "2026-10-28")]),
+    dict(name="ISBI 2027", full="IEEE 国际生物医学成像研讨会", region="global",
+         start="2027-05-25", end="2027-05-28", city="瑞士 洛桑", url="https://biomedicalimaging.org/2027/",
+         deadlines=[("4页论文截止", "2026-10-26"), ("1页摘要截止", "2027-02-01")]),
+    dict(name="International BCI Meeting 2027", full="第12届国际脑机接口大会", region="global",
+         start="2027-06-07", end="2027-06-10", city="克罗地亚 希贝尼克", url="https://bcisociety.org/bci-meeting/",
+         deadlines=[("摘要截止", "2027-01-15")]),
+    dict(name="OHBM 2027", full="人脑图谱组织年会", region="global",
+         start="2027-06-26", end="2027-06-30", city="加拿大 多伦多", url="https://www.humanbrainmapping.org/ohbm-2027/",
+         deadlines=[("摘要截止（约）", "2026-12-15")]),
+    dict(name="IPMI 2027", full="医学影像信息处理", region="global",
+         start="2027-06-27", end="2027-07-02", city="加拿大 魁北克 Orford", url="https://2027.ipmi-conf.org/",
+         deadlines=[("论文截止", "2026-12-07")]),
+    dict(name="MIDL 2027", full="医学影像深度学习", region="global",
+         start="2027-07-14", end="2027-07-16", city="葡萄牙 波尔图", url="https://2027.midl.io/"),
+    dict(name="MICCAI 2027", full="医学图像计算与计算机辅助介入", region="global",
+         start="2027-09-26", end="2027-10-01", city="新西兰 奥克兰", url="https://miccai.org/upcoming-conferences/"),
+    dict(name="CCR 2026", full="中华医学会第33次放射学学术大会", region="cn",
+         start="2026-11-19", end="2026-11-22", city="北京", url="https://ccr2026.sciconf.cn/"),
+]
+
+# 会议动态（自动抓新闻：征稿、召开、获奖等）
+CONF_NEWS_EN = [
+    'OHBM OR MICCAI OR ISMRM OR "ISBI 2027" OR BIOMAG conference',
+    '"BCI Meeting" OR "brain-computer interface conference" OR "neuroimaging conference"',
+]
+CONF_NEWS_ZH = ['脑成像 学术会议 OR 神经影像 学术会议 OR 医学影像 大会', '脑机接口 大会 OR 脑科学 大会 OR 神经科学 学术会议']
+
 # ================================================================
 
 UA = "Mozilla/5.0 (compatible; NeuroDaily/1.0)"
@@ -149,10 +199,16 @@ def item(kind, region, title, url, source, date="", summary="", topics=None):
 
 # ----------------------------- 新闻 -----------------------------
 
-def fetch_news(days):
+def is_heart(title):
+    return bool(HEART.search(title)) and not BRAIN.search(title)
+
+
+def fetch_news(days, en=None, zh=None, kind="news"):
     out = []
-    feeds = [("en", q, "hl=en-US&gl=US&ceid=US:en") for q in NEWS_EN] + \
-            [("zh", q, "hl=zh-CN&gl=CN&ceid=CN:zh-Hans") for q in NEWS_ZH]
+    en = NEWS_EN if en is None else en
+    zh = NEWS_ZH if zh is None else zh
+    feeds = [("en", q, "hl=en-US&gl=US&ceid=US:en") for q in en] + \
+            [("zh", q, "hl=zh-CN&gl=CN&ceid=CN:zh-Hans") for q in zh]
     for lang, q, loc in feeds:
         url = "https://news.google.com/rss/search?q=" + urllib.parse.quote(f"{q} when:{days}d") + "&" + loc
         raw = get(url)
@@ -167,7 +223,7 @@ def fetch_news(days):
             src = it.findtext("source") or ""
             if src and title.endswith(" - " + src):
                 title = title[: -len(src) - 3]
-            if any(x in title for x in NEWS_EXCLUDE):
+            if any(x in title for x in NEWS_EXCLUDE) or is_heart(clean(title)):
                 continue
             if lang == "zh":
                 region = "global" if FOREIGN_ZH.search(title) else "cn"
@@ -178,12 +234,17 @@ def fetch_news(days):
                 date = email.utils.parsedate_to_datetime(it.findtext("pubDate")).astimezone(BJT).strftime("%m-%d %H:%M")
             except Exception:  # noqa: BLE001
                 pass
-            out.append(item("news", region, title, it.findtext("link"), src, date, topics=tag(title)))
+            topics = ["会议"] if kind == "confnews" else tag(title)
+            out.append(item(kind, region, title, it.findtext("link"), src, date, topics=topics))
         time.sleep(1)
     return out
 
 
 # ----------------------------- 论文 -----------------------------
+
+def fetch_conf_news(days):
+    return fetch_news(max(days, 7), CONF_NEWS_EN, CONF_NEWS_ZH, kind="confnews")
+
 
 def fetch_pubmed(days):
     base = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/"
@@ -285,6 +346,8 @@ h2{font-size:16px;margin:22px 0 8px;color:var(--mute)}
 .meta{color:var(--mute);font-size:12.5px;margin-top:4px}
 .chips{margin-bottom:4px}.chip{display:inline-block;background:var(--chip);color:var(--acc);font-size:11.5px;border-radius:6px;padding:1px 7px;margin-right:4px}
 details{margin-top:6px;font-size:13.5px;color:var(--mute)}summary{cursor:pointer}
+h3{font-size:14px;margin:14px 0 6px;color:var(--mute)}.full{color:var(--mute);font-size:13px}
+.meta b{color:var(--fg)}.meta b.hot,b.hot{color:#d9480f}
 .empty{color:var(--mute);font-size:14px;padding:6px 2px}
 footer{margin:30px 0 10px;color:var(--mute);font-size:13px}footer a{color:var(--acc);margin-right:10px}
 [hidden]{display:none!important}
@@ -326,8 +389,33 @@ MANIFEST = {
 }
 
 
+def conf_cards(reg, today):
+    t = dt.date.fromisoformat(today)
+    rows = []
+    for c in CONFERENCES:
+        if c["region"] != reg:
+            continue
+        s, e = dt.date.fromisoformat(c["start"]), dt.date.fromisoformat(c["end"])
+        if e < t:
+            continue
+        if s <= t:
+            when = '<b class="hot">正在召开</b>'
+        else:
+            when = f'还有 <b>{(s - t).days}</b> 天'
+        dls = [(n, dt.date.fromisoformat(d)) for n, d in c.get("deadlines", [])]
+        dls = [f'{esc(n)} {d:%m-%d}（{"<b class=hot>" if (d - t).days <= 30 else "<b>"}{(d - t).days}</b> 天）'
+               for n, d in dls if d >= t]
+        dl = f'<div class="meta">⏰ {"；".join(dls)}</div>' if dls else ""
+        rows.append((s, f'<article class="card" data-topics="会议"><div class="chips"><span class="chip">会议</span></div>'
+                        f'<a href="{esc(c["url"])}" target="_blank" rel="noopener">{esc(c["name"])}</a>'
+                        f'<span class="full"> · {esc(c["full"])}</span>'
+                        f'<div class="meta">📅 {s:%Y-%m-%d} ~ {e:%m-%d} · 📍 {esc(c["city"])} · {when}</div>{dl}</article>'))
+    rows.sort(key=lambda r: r[0])
+    return "".join(r[1] for r in rows)
+
+
 def render(items, day, archive_dates, link_prefix, asset=""):
-    order = list(TOPICS) + [FALLBACK_TOPIC]
+    order = list(TOPICS) + [FALLBACK_TOPIC, "会议"]
     tabs, panels = [], []
     for reg, name in (("cn", "中国"), ("global", "全球")):
         mine = [i for i in items if i["region"] == reg]
@@ -341,6 +429,12 @@ def render(items, day, archive_dates, link_prefix, asset=""):
                 lst.sort(key=lambda i: order.index(i["topics"][0]) if i["topics"][0] in order else 99)
             body.append(f"<h2>{label}（{len(lst)}）</h2>")
             body.append("".join(card(i) for i in lst) or '<div class="empty">今天没有新内容</div>')
+        confs = conf_cards(reg, day)
+        cnews = sorted((i for i in mine if i["kind"] == "confnews"), key=lambda i: i["date"], reverse=True)
+        body.append("<h2>会议 · 脑图像处理 / 神经影像</h2>")
+        body.append(confs or '<div class="empty">暂无即将召开的会议（可在脚本配置区 CONFERENCES 中补充）</div>')
+        if cnews:
+            body.append(f'<h3>会议动态（{len(cnews)}）</h3>' + "".join(card(i) for i in cnews))
         panels.append(f'<section class="panel" id="{reg}">{"".join(body)}</section>')
     topic_btns = "".join(f'<button data-topic="{esc(t)}">{esc(t)}</button>' for t in ["全部"] + order)
     arch = "".join(f'<a href="{link_prefix}{d}.html">{d}</a>' for d in archive_dates)
@@ -352,7 +446,7 @@ def render(items, day, archive_dates, link_prefix, asset=""):
 <meta name="apple-mobile-web-app-title" content="脑科学日报">
 <style>{CSS}</style></head><body><div class="wrap">
 <h1>NeuroDaily 脑科学日报</h1>
-<div class="sub">{day} · MEG / EEG / MRI / fMRI / 脑机接口 / 神经科学 · 共 {len(items)} 条新内容</div>
+<div class="sub">{day} · MEG / EEG / MRI / fMRI / 脑机接口 / 神经科学 / 会议 · 共 {len(items)} 条新内容</div>
 <div class="bar tabs">{"".join(tabs)}</div>
 <div class="bar">{topic_btns}</div>
 {"".join(panels)}
@@ -371,6 +465,12 @@ def push_wechat(items, day):
         papers = [i for i in items if i["region"] == reg and i["kind"] == "paper"]
         lines.append(f"### {name}：新闻 {len(news)} 条 · 论文 {len(papers)} 篇")
         lines += [f"- [{i['title']}]({i['url']})" for i in news[:8]]
+        lines.append("")
+    t = dt.date.fromisoformat(day)
+    up = sorted((c for c in CONFERENCES if dt.date.fromisoformat(c["end"]) >= t), key=lambda c: c["start"])[:3]
+    if up:
+        lines.append("### 近期会议")
+        lines += [f"- {c['name']}（{c['start']}，{c['city']}）" for c in up]
         lines.append("")
     if page:
         lines.append(f"[查看完整日报]({page})")
@@ -396,14 +496,16 @@ def main():
 
     items = []
     for name, fn in (("Google News", fetch_news), ("PubMed", fetch_pubmed),
-                     ("bioRxiv/medRxiv", fetch_rxiv), ("arXiv", fetch_arxiv)):
+                     ("bioRxiv/medRxiv", fetch_rxiv), ("arXiv", fetch_arxiv), ("会议动态", fetch_conf_news)):
         log(f"抓取 {name} …")
         try:
             got = fn(args.days)
         except Exception as e:  # noqa: BLE001  单个来源失败不影响其他来源
             log(f"  ! {name} 出错：{e}")
             got = []
-        log(f"  {len(got)} 条")
+        n0 = len(got)
+        got = [i for i in got if not is_heart(i["title"])]
+        log(f"  {len(got)} 条" + (f"（剔除心脏相关 {n0 - len(got)} 条）" if n0 > len(got) else ""))
         items += got
 
     seen_file = out / "data" / "seen.json"
