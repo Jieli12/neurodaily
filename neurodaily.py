@@ -317,7 +317,16 @@ def card(it):
             f'<div class="meta">{esc(meta)}</div>{summ}</article>')
 
 
-def render(items, day, archive_dates, link_prefix):
+MANIFEST = {
+    "name": "NeuroDaily 脑科学日报", "short_name": "脑科学日报",
+    "start_url": "./", "scope": "./", "display": "standalone",
+    "background_color": "#f7f7f5", "theme_color": "#2b59c3",
+    "icons": [{"src": "icon-192.png", "sizes": "192x192", "type": "image/png"},
+              {"src": "icon-512.png", "sizes": "512x512", "type": "image/png"}],
+}
+
+
+def render(items, day, archive_dates, link_prefix, asset=""):
     order = list(TOPICS) + [FALLBACK_TOPIC]
     tabs, panels = [], []
     for reg, name in (("cn", "中国"), ("global", "全球")):
@@ -336,7 +345,11 @@ def render(items, day, archive_dates, link_prefix):
     topic_btns = "".join(f'<button data-topic="{esc(t)}">{esc(t)}</button>' for t in ["全部"] + order)
     arch = "".join(f'<a href="{link_prefix}{d}.html">{d}</a>' for d in archive_dates)
     return f"""<!doctype html><html lang="zh-CN"><head><meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1"><title>NeuroDaily {day}</title>
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>脑科学日报</title>
+<link rel="manifest" href="{asset}manifest.json"><link rel="apple-touch-icon" href="{asset}icon-192.png">
+<link rel="icon" href="{asset}icon-192.png"><meta name="theme-color" content="#2b59c3">
+<meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="脑科学日报">
 <style>{CSS}</style></head><body><div class="wrap">
 <h1>NeuroDaily 脑科学日报</h1>
 <div class="sub">{day} · MEG / EEG / MRI / fMRI / 脑机接口 / 神经科学 · 共 {len(items)} 条新内容</div>
@@ -412,7 +425,8 @@ def main():
     (out / "data" / f"{today}.json").write_text(json.dumps(fresh, ensure_ascii=False, indent=1), "utf-8")
     dates = sorted((p.stem for p in (out / "archive").glob("*.html")), reverse=True)
     dates = sorted(set(dates) | {today}, reverse=True)[:30]
-    (out / "archive" / f"{today}.html").write_text(render(fresh, today, dates, ""), "utf-8")
+    (out / "archive" / f"{today}.html").write_text(render(fresh, today, dates, "", "../"), "utf-8")
+    (out / "manifest.json").write_text(json.dumps(MANIFEST, ensure_ascii=False, indent=1), "utf-8")
     (out / "index.html").write_text(render(fresh, today, dates, "archive/"), "utf-8")
 
     cn = sum(i["region"] == "cn" for i in fresh)
