@@ -1,0 +1,877 @@
+[
+ {
+  "kind": "paper",
+  "region": "global",
+  "title": "Global feature-based suppression without local target competition.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42932814/",
+  "source": "PubMed · Cereb Cortex",
+  "date": "",
+  "summary": "Feature-based attention (FBA) enables the prioritization of behaviorally relevant stimulus features across the visual field by enhancing processing of attended and suppressing unattended information. While global amplification of attended features is well established, it remains unclear whether suppression of unattended features reflects a global mechanism or depends on local spatial competition with attended stimuli. Here, we tested whether suppression of unattended colors requires direct local competition with the attended color. Participants performed a feature-based attentional shifting task while viewing centrally task-relevant and peripherally task-irrelevant, frequency-tagged random-d",
+  "topics": [
+   "神经科学"
+  ]
+ },
+ {
+  "kind": "paper",
+  "region": "global",
+  "title": "FMRI-guided focal transcranial magnetic stimulation of anterior cingulate cortex reduces opioid seeking and restores connectivity.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42932665/",
+  "source": "PubMed · Proc Natl Acad Sci U S A",
+  "date": "",
+  "summary": "Relapse remains a major challenge in opioid addiction treatment. Transcranial magnetic stimulation (TMS) has emerged as a potential therapeutic strategy for addiction, yet results had been mixed due to empirically selected stimulation targets and limited knowledge of neural circuit engagement. Here, we used a focal rat TMS platform to test whether high-density theta-burst stimulation (hdTBS) of the anterior cingulate cortex (ACC), a corticostriatal node implicated in opioid relapse by prior causal and longitudinal functional MRI studies, decreases relapse-like oxycodone seeking and associated circuit dysfunction. Male rats self-administered oxycodone intravenously for 14 d and then underwent",
+  "topics": [
+   "fMRI",
+   "MRI"
+  ]
+ },
+ {
+  "kind": "paper",
+  "region": "global",
+  "title": "Benchmarking the Brain's Blood Vessels - Why We Need Specialized Models in Medical AI.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42932558/",
+  "source": "PubMed · NEJM AI",
+  "date": "",
+  "summary": "AbstractWhile general-purpose multimodal and language models have made progress across many medical tasks, many clinically important problems require a precise understanding of anatomy, imaging physics, and disease-specific context that is not available in internet-scale public data. In this issue of NEJM AI, Yang et al. report the TopCoW challenge, a public benchmark for topology-aware circle of Willis segmentation on computed tomography (CT) and magnetic resonance (MR) angiography. The study provides paired CT and MR angiography scans, voxel-level labels for 13 arterial components, virtual reality-assisted expert annotations, external validation, and downstream clinical tasks including fet",
+  "topics": [
+   "神经科学"
+  ]
+ },
+ {
+  "kind": "paper",
+  "region": "global",
+  "title": "Physiological Signals Boosted by Artificial Intelligence Save Time and Brain Function.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42932517/",
+  "source": "PubMed · NEJM AI",
+  "date": "",
+  "summary": "AbstractPatients with acute neurologic injury in the neurologic intensive care unit are at high risk of secondary brain injury, yet timely detection and intervention remain limited by intermittent examination and delayed signal interpretation. This review explores emerging applications of artificial intelligence (AI) and machine learning in neurocritical care, highlighting how continuous physiological data streams - such as electroencephalography, intracranial pressure, and cerebral blood flow - can be used to detect subclinical deterioration and guide early treatment. Through three illustrative cases, we examine potential AI use cases for delayed cerebral ischemia, real-time seizure detecti",
+  "topics": [
+   "EEG"
+  ]
+ },
+ {
+  "kind": "paper",
+  "region": "global",
+  "title": "T2 mapping of individual fascicles of the sciatic nerve at 7 T using multi-echo spin-echo.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42932127/",
+  "source": "PubMed · MAGMA",
+  "date": "",
+  "summary": "Neuropathies can selectively affect individual fascicles within peripheral nerves, but diagnosis is limited by MRI spatial resolution and signal-to-noise ratio. This feasibility study aimed to leverage 7 T MRI to measure sub-millimetric T2 maps of sciatic nerve fascicles in healthy subjects. Accelerated multi-echo spin-echo sequences were acquired in six healthy volunteers at 7 T. Acceleration included generalised autocalibrating partially parallel acquisition (GRAPPA) and GRAPPATINI, which integrates GRAPPA with model-based accelerated relaxometry. Extended phase graph (EPG) modelling of signal decay was used to compute T2 maps. Quantitative maps were visually assessed and T2 values were ex",
+  "topics": [
+   "MRI"
+  ]
+ },
+ {
+  "kind": "paper",
+  "region": "global",
+  "title": "A Reproducible MRI-to-FE Workflow for Generating Population-Specific and Subject-Specific Finite Element Head Models.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42932098/",
+  "source": "PubMed · Ann Biomed Eng",
+  "date": "",
+  "summary": "Finite element (FE) models are widely used to study traumatic brain injury, but most are based on single-subject scans or generic atlases that may not represent specific cohorts, introducing variability in biomechanical outputs. This study presents a reproducible framework for generating a cohort-specific MRI-derived template brain and constructing a representative FE head model. A cohort-specific template was created from T1-weighted and diffusion-weighted MRI scans of collision sport athletes (n = 78). An FE head model was then generated from this template, with material properties mapped using MRI-derived microstructural information. The anatomical accuracy of the template was evaluated u",
+  "topics": [
+   "MRI"
+  ]
+ },
+ {
+  "kind": "paper",
+  "region": "cn",
+  "title": "High-fat diet-induced MAFLD is associated with sleep architecture disruption via hippocampal neuroinflammation and bifurcated IRS-1/Akt/mTOR signaling in mice.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42932072/",
+  "source": "PubMed · Metab Brain Dis",
+  "date": "",
+  "summary": "Epidemiological associations between metabolic dysfunction-associated fatty liver disease (MAFLD) and sleep disturbances point to shared mechanisms, yet the underlying central pathways remain unexplored. We hypothesized that high-fat diet (HFD)-induced MAFLD disrupts sleep architecture via hippocampal neuroinflammation and dysregulation of the IRS-1/Akt/mTOR signaling axis. Male BALB/c mice were fed a control diet (CD) or a 60% HFD for 16 weeks to induce MAFLD. Sleep-wake architecture was assessed by 24-h EEG/EMG recordings. We evaluated hepatic steatosis, serum cytokines, hippocampal histology, and hippocampal pro-inflammatory cytokines. Hippocampal expression and phosphorylation of IRS-1 (",
+  "topics": [
+   "EEG"
+  ]
+ },
+ {
+  "kind": "paper",
+  "region": "cn",
+  "title": "Imaging Features and Prognosis of Anti‑Sez6l2 Encephalitis: A Longitudinal Cohort Study and Literature Review.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42932012/",
+  "source": "PubMed · Cerebellum",
+  "date": "",
+  "summary": "Anti-Seizure-Related 6 Homolog Like 2 (Sez6l2) encephalitis is a rare autoimmune disorder characterized by cerebellar ataxia and cognitive impairment. The 13 previously reported cases included in our systematic analysis focus on adults, leaving gaps in pediatric demographics, longitudinal multimodal imaging markers, and effective management of refractory cases. This study aimed to expand the clinical spectrum, evaluate multimodal imaging in localizing neuroinflammation/monitoring response, and assess the efficacy of combined first- and second-line immunotherapy. We analyzed a longitudinal cohort of five Sez6l2-antibody-positive patients (aged 15-72 years) alongside a systematic review (N = 1",
+  "topics": [
+   "MRI"
+  ]
+ },
+ {
+  "kind": "paper",
+  "region": "global",
+  "title": "A closer look at LATE: a Case Report on a subtly evolving neurodegenerative disorder.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42931999/",
+  "source": "PubMed · Neurol Sci",
+  "date": "",
+  "summary": "Limbic-predominant age-related TDP-43 encephalopathy (LATE) often presents in older adults with a hippocampal-type amnestic syndrome that is clinically indistinguishable from Alzheimer's disease (AD). In the era of anti-amyloid therapies, misdiagnosis carries therapeutic consequences. Single-patient case report. The patient provided written informed consent and all data included in this paper are de-identified. A 71-year-old with isolated episodic memory impairment underwent neuropsychological testing, cerebrospinal fluid (CSF) AD biomarkers, and 18F-FDG PET in 2021. Baseline findings showed preserved global cognition, negative AD biomarkers, and mild bilateral medial temporal hypometabolism",
+  "topics": [
+   "MRI"
+  ]
+ },
+ {
+  "kind": "paper",
+  "region": "cn",
+  "title": "Heterogeneous decision-making in ADHD: computational subtypes and their distinct prefrontal connectivity patterns.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42931927/",
+  "source": "PubMed · Eur Child Adolesc Psychiatry",
+  "date": "",
+  "summary": "Children with ADHD exhibit decision-making deficits characterized by lower efficiency in evidence accumulation and a preference for smaller, sooner rewards in intertemporal choices. This study aimed to preliminarily explore computational subtypes of ADHD in children and to investigate differences in prefrontal functional connectivity between ADHD subtypes. A total of 94 children with ADHD and 63 typically developing children matched for sex, age, and IQ were included. All participants completed the Two Choice Impulsivity Paradigm (TCIP) and the ADHD Symptom Rating Scale, and 43 children with ADHD underwent resting-state fMRI. A hierarchical drift diffusion model was applied to analyze TCIP t",
+  "topics": [
+   "fMRI"
+  ]
+ },
+ {
+  "kind": "paper",
+  "region": "cn",
+  "title": "Gain-of-Function Variants in PLAAT4 and Spinal Predominant Demyelinating Leukodystrophy.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42931738/",
+  "source": "PubMed · JAMA Neurol",
+  "date": "",
+  "summary": "Leukoencephalopathies are clinically and etiologically heterogeneous disorders, and establishing a specific diagnosis remains challenging. Patients with unexplained spastic paraplegia and brain white matter hyperintensities (WMH) may be misdiagnosed as having multiple sclerosis, potentially exposing them to unnecessary immunosuppressive therapy. To define the clinical, radiological, and genetic features of spinal predominant demyelinating leukodystrophy with leg spasticity (SPDMLS). This case series involved participants from 4 tertiary referral hospitals within the China Alliance for Rare Diseases during the period July 2019 to August 2025. The study design integrated clinical evaluations a",
+  "topics": [
+   "MRI"
+  ]
+ },
+ {
+  "kind": "paper",
+  "region": "global",
+  "title": "Subcortical Microstructural Changes Associated with Multiple Metal Exposure.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42931698/",
+  "source": "PubMed · Toxics",
+  "date": "",
+  "summary": "Metal exposure has been associated with neurodegenerative disorders including Parkinson's disease (PD). This study examined microstructural changes in subcortical motor areas associated with chronic metal exposure. Subjects with/without a welding history (metal-exposed subjects; n = 23 and controls; n = 24) were examined. Brain microstructural differences were assessed by MRI diffusion metrics [mean (MD), axial (AD), radial diffusivity (RD) and fractional anisotropy (FA)] in subcortical motor areas [nigro-basal ganglia-thalamic circuit: substantia nigra (SN), caudate nucleus (CN), putamen, globus pallidus (GP), and thalamus; dentatorubral circuit: dentate nucleus (DN) and red nucleus (RN)]. ",
+  "topics": [
+   "MRI"
+  ]
+ },
+ {
+  "kind": "paper",
+  "region": "global",
+  "title": "Brain Gadolinium Biodistribution, Clearance, and Retention Following High-Dose Contrast-Agent Exposure in Mice: A Multimodal Study.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42931695/",
+  "source": "PubMed · Toxics",
+  "date": "",
+  "summary": "We evaluated gadolinium biodistribution, clearance, and long-term brain retention following high-dose gadolinium-based contrast agent (GBCA) exposure in 90 mice. Macrocyclic and linear agents were assessed using particle-induced X-ray emission (PIXE) alongside complementary elemental, imaging, and histological methods. Following intravenous administration, gadolinium was detected in blood and multiple tissues during the acute phase, with declining blood levels and detectable urinary excretion. No brain Gd signal was detected by PIXE at the long-term endpoints following single exposure. Repeated-exposure findings were descriptive because the individual subgroups contained only 1-3 animals. En",
+  "topics": [
+   "MRI"
+  ]
+ },
+ {
+  "kind": "paper",
+  "region": "cn",
+  "title": "Assessment of the Efficacy and Safety of CyberKnife Radiosurgery on Optic Nerve Sheath Meningiomas.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42931618/",
+  "source": "PubMed · Vision (Basel)",
+  "date": "",
+  "summary": "The purpose of this study was to evaluate the efficacy and safety of CyberKnife (CK) radiosurgery in patients with optic nerve sheath meningiomas (ONSM). We retrospectively identified patients with ONSM treated with CK between January 2020 and January 2024 from the Database of Chinese Neuro-Ophthalmic Diseases. CK was delivered at 23-25 Gy in 5 fractions. Best-corrected visual acuity (BCVA) and visual field mean deviation (VF MD) were assessed before treatment and at the final follow-up, with a median visual follow-up of 36 months (range, 26-64 months). Tumor volume and CK-related complications were also evaluated. Twenty patients (22 affected eyes; 2 with bilateral involvement) were include",
+  "topics": [
+   "MRI"
+  ]
+ },
+ {
+  "kind": "paper",
+  "region": "global",
+  "title": "Association of Diagnosis Age with Clinical Characteristics and MRI Findings in Multiple Sclerosis.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42931258/",
+  "source": "PubMed · NeuroSci",
+  "date": "",
+  "summary": "Age at multiple sclerosis (MS) diagnosis may be associated with clinical course, inflammatory activity, and disability accrual, but evidence across the full age spectrum remains limited. We compared clinical and radiological features, phenotype distribution, and time to first post-diagnosis relapse across early-onset MS (EOMS), adult-onset MS (AOMS), and late-onset MS (LOMS). This observational study included patients with MS treated at two tertiary centers in Isfahan, Iran, combining a retrospective review of clinical records with a cross-sectional assessment at the most recent study visit. Patients were categorized as EOMS (MS diagnosis at ≤18 years), AOMS, or LOMS (diagnosis at or after 5",
+  "topics": [
+   "MRI"
+  ]
+ },
+ {
+  "kind": "paper",
+  "region": "global",
+  "title": "Neurocognitive Indices of Long COVID: Dysregulated Engagement of Inhibitory Control and Oscillatory Slowing.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42931252/",
+  "source": "PubMed · NeuroSci",
+  "date": "",
+  "summary": "Persistent neurocognitive symptoms, such as \"brain fog\", insomnia, or fatigue, are prevalent in PASC (post-acute sequelae of COVID-19, \"Long COVID\"), even after mild acute illness. However, evidence for the neural underpinnings of cognitive dysregulation and altered spontaneous neural activity is inadequate. EEG data were acquired during an inhibitory Go/NoGo task and wakeful rest from young, otherwise healthy adults with PASC approximately six months after recovery from mild COVID-19. Neurobehavioral indices were computed for correct and erroneous trials, resting state, and the questionnaire battery, and compared with a matched control (CONT) group of individuals not exposed to COVID-19. Th",
+  "topics": [
+   "EEG"
+  ]
+ },
+ {
+  "kind": "paper",
+  "region": "global",
+  "title": "Clinical Phenotypes, Neuroimaging, and Outcomes in Prolonged and Persistent Non-Motor Migraine Aura: A Systematic Review and Episode-Level Synthesis.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42931151/",
+  "source": "PubMed · Neurol Int",
+  "date": "",
+  "summary": "Prolonged and persistent migraine aura may mimic cerebral ischemia, but its clinical course and neuroimaging features are poorly characterized. We synthesized episode-level evidence on non-motor aura lasting more than 60 min without reported established infarction. This systematic review (International Prospective Register of Systematic Reviews [PROSPERO] CRD420261461238) followed the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) 2020 guidelines. PubMed, Scopus, and Google Scholar were searched from inception to August 2026 and the searches were rerun with an extended strategy on 5 October 2026, supplemented by backward and forward citation searching. Eligible r",
+  "topics": [
+   "MRI"
+  ]
+ },
+ {
+  "kind": "paper",
+  "region": "cn",
+  "title": "Early Diagnostic Classification of Alzheimer's Disease Using Structural and Resting-State Functional MRI.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42931145/",
+  "source": "PubMed · Neurol Int",
+  "date": "",
+  "summary": "Background: Alzheimer's disease (AD) is an irreversible neurodegenerative disorder where early diagnosis at the mild cognitive impairment (MCI) stage is critical for timely intervention. While structural MRI (sMRI) and resting-state functional MRI (rs-fMRI) provide complementary pathological information, clinical translation is limited by high feature heterogeneity and the heavy computational burden of 3D deep learning networks. This study aims to propose a lightweight, hybrid multimodal fusion model to overcome these limitations and improve diagnostic efficiency. Methods: A lightweight MobileViT-XS network was utilized to extract global and local pathological features from gray-matter sMRI ",
+  "topics": [
+   "fMRI",
+   "MRI"
+  ]
+ },
+ {
+  "kind": "paper",
+  "region": "global",
+  "title": "When Flow Voids Are Missed: Delayed Diagnosis of Foix-Alajouanine Syndrome-A Case Report.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42931142/",
+  "source": "PubMed · Neurol Int",
+  "date": "",
+  "summary": "Introduction: Foix-Alajouanine syndrome (FAS) is a rare, progressive congestive ischaemic myelopathy caused by a spinal dural arteriovenous fistula (SDAVF). Because of its non-specific clinical presentation and subtle imaging features, FAS is frequently misdiagnosed; in particular, perimedullary flow voids-its characteristic imaging hallmark-are readily overlooked on initial MRI, leading to diagnostic delay and potentially harmful interventions. Case Presentation: We report the case of a 66-year-old man who developed progressive myelopathy following revision knee arthroplasty performed under spinal anaesthesia. Initial MRI at another institution demonstrated extensive intramedullary T2 hyper",
+  "topics": [
+   "MRI"
+  ]
+ },
+ {
+  "kind": "paper",
+  "region": "global",
+  "title": "Cryptococcal Meningoencephalitis with Possible Clinical-Manometric Intracranial Pressure Dissociation in a Pediatric Patient.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42931095/",
+  "source": "PubMed · Pediatr Rep",
+  "date": "",
+  "summary": "A 12-year-old previously healthy girl without an identified immunodeficiency presented with a 25-day history of headache, vomiting, and severe asthenia. Cerebrospinal fluid (CSF) analysis confirmed Cryptococcus gattii meningoencephalitis. Despite consistently normal intracranial pressure (ICP) readings on serial lumbar punctures (all below 20 cm H2O), the patient developed clinical signs suggestive of raised intracranial pressure, progressing to decreased consciousness requiring ICU admission and orotracheal intubation. Brain MRI demonstrated communicating hydrocephalus, leptomeningeal enhancement, and perineural contrast enhancement of the optic nerve sheath and of cranial nerves VII and VI",
+  "topics": [
+   "MRI"
+  ]
+ },
+ {
+  "kind": "paper",
+  "region": "global",
+  "title": "The Prevalence of Neurological Symptoms in the Presence of Plantar Fasciitis: A Review of 459 Patients.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42931049/",
+  "source": "PubMed · J Am Podiatr Med Assoc",
+  "date": "",
+  "summary": "Background: To determine the overall incidence of concomitant neurological symptoms and, if present, their origin. Methods: A clinical review was conducted of 459 patients from a large Podiatric Medical practice, who presented with a diagnosis of plantar fasciitis. Results: A diagnosis of plantar fasciitis presented clinical neurological findings in 49% (225 of 459) of study patients. With conservative treatment, neurological symptoms resolved in 126 of 225 patients (56%), leaving 99 nonresponding patients having persistent neurological symptoms. Electrodiagnostic studies were obtained in 73 of 99 nonresponding patients. Of those having electrodiagnostic studies, 68 of 73 (93.15%) had positi",
+  "topics": [
+   "MRI"
+  ]
+ },
+ {
+  "kind": "paper",
+  "region": "cn",
+  "title": "Color and Spatial Cue Modulation of Emotional Word Processing: Evidence from ERPs.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42930974/",
+  "source": "PubMed · J Intell",
+  "date": "",
+  "summary": "Emotional word processing is shaped by lexical meaning and concurrent perceptual context. This study investigated when red and green color cues and symbolic upward and downward direction cues modulate the processing of positive and negative Chinese emotional words. Thirty-four native Chinese speakers were recruited, and 27 remained in the final ERP sample after behavioral and EEG-quality exclusions. The experiment used a 2 (color: red vs. green) × 2 (direction: up vs. down) × 2 (word valence: positive vs. negative) within-subject design. Positive words elicited larger P1 amplitudes, and negative words elicited more negative-going N1 and N400 amplitudes. A significant Color × Valence interact",
+  "topics": [
+   "EEG"
+  ]
+ },
+ {
+  "kind": "paper",
+  "region": "global",
+  "title": "Preschool Outcome After Therapeutic Hypothermia in Neonatal Hypoxic-Ischemic Encephalopathy: Insights from Early Neurodevelopmental Assessment.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42930784/",
+  "source": "PubMed · J Pers Med",
+  "date": "",
+  "summary": "Background: Therapeutic hypothermia has significantly improved the prognosis of infants with hypoxic-ischemic encephalopathy (HIE), shifting the focus of follow-up toward the identification of early predictors of preschool neurodevelopmental outcome. This study aimed to evaluate the predictive value of early neurological, developmental and neuroradiological assessments in children with HIE treated with therapeutic hypothermia. Methods: We conducted a prospective longitudinal study including 105 children with HIE treated with therapeutic hypothermia between 2015 and 2022 at a tertiary neonatal center. Early neurological examination using the Hammersmith Infant Neurological Examination (HINE),",
+  "topics": [
+   "MRI"
+  ]
+ },
+ {
+  "kind": "paper",
+  "region": "global",
+  "title": "Neurophysiological and Psychophysical Biomarkers for Predicting Spinal Cord Stimulation Treatment Response in Chronic Neuropathic Pain: A Systematic Review.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42930761/",
+  "source": "PubMed · J Pers Med",
+  "date": "",
+  "summary": "Background: Spinal cord stimulation (SCS) is an established therapy for chronic neuropathic pain, yet a substantial minority of implanted patients do not obtain durable relief, and patient selection still relies largely on a subjective percutaneous stimulation trial. Objective neurophysiological and psychophysical biomarkers could enable precision selection, but their predictive value has not been consolidated across modalities. Objectives: To evaluate whether pre-treatment or intraoperative neurophysiological (electroencephalography (EEG), magnetoencephalography (MEG), somatosensory evoked potentials (SSEP), evoked compound action potentials (ECAP)) and psychophysical (conditioned pain modu",
+  "topics": [
+   "MEG",
+   "EEG"
+  ]
+ },
+ {
+  "kind": "paper",
+  "region": "global",
+  "title": "ImageNet, RadiologyNET, or RadImageNet? Evaluating Pretraining Across CT, MRI, and X-Ray Classification.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42930652/",
+  "source": "PubMed · J Imaging",
+  "date": "",
+  "summary": "Due to the limited availability of annotated medical datasets, medical image classification typically relies on transfer learning from large-scale natural image datasets such as ImageNet. However, it remains unclear when domain-specific pretraining offers greater benefits. This study evaluates the impact of different pretrained weights on neural network performance in radiological image classification tasks. Four strategies were compared: ImageNet, RadiologyNET, and RadImageNet model fine-tuning against learning from randomly initialised weights (Baseline). Experiments were conducted over ten seed-paired runs using ResNet50, InceptionV3, DenseNet121, EfficientNet-B3, and MobileNetV3-Large on",
+  "topics": [
+   "MRI"
+  ]
+ },
+ {
+  "kind": "paper",
+  "region": "global",
+  "title": "Blood Cell Imaging Analysis for Multiple Sclerosis Classification Using Leave-One-Subject-Out Study with Deep Neural Networks.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42930633/",
+  "source": "PubMed · J Imaging",
+  "date": "",
+  "summary": "Multiple sclerosis (MS) is a chronic neurological disease whose diagnosis typically relies on resource-intensive and partly invasive procedures such as MRI and spinal fluid analysis. This study explores whether deep learning can identify distinguishing patterns in RBC images associated with MS, aiming to determine whether blood-cell imaging may provide information relevant to understanding the disease. The initial dataset comprised 121 images from 13 independent subjects. To expand the dataset to 1944 images, image augmentation techniques were applied to the training data to increase image variability. Due to the small dataset, training was carried out using a Leave-One-Subject-Out (LOSO) st",
+  "topics": [
+   "MRI"
+  ]
+ },
+ {
+  "kind": "paper",
+  "region": "global",
+  "title": "Variational Autoencoders for Medical Image Segmentation: A Review.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42930632/",
+  "source": "PubMed · J Imaging",
+  "date": "",
+  "summary": "Medical image segmentation plays an important role in healthcare because it transforms raw scans into useful information for diagnosis and treatment planning. Despite the strong performance of deep learning, most supervised segmentation methods require large amounts of pixel-level annotations and may become less reliable when imaging modalities are incomplete or when prediction uncertainty is not properly considered. Variational autoencoders (VAEs) are deep learning models that were proposed to address some of these limitations, as they can learn probabilistic latent representations capable of capturing meaningful structure in medical images. This review provides a structured survey of how V",
+  "topics": [
+   "MRI"
+  ]
+ },
+ {
+  "kind": "paper",
+  "region": "global",
+  "title": "A GPU-Accelerated MRI Simulator for Synthetic Image Generation.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42930629/",
+  "source": "PubMed · J Imaging",
+  "date": "",
+  "summary": "Magnetic Resonance Imaging (MRI) is an imaging technique that provides detailed structural and functional information about organs and tissues. To support the validation of MRI measurement techniques and provide a tool for scanner benchmarking, we develop an MRI simulator exploiting graphics processing units (GPUs) for computational acceleration. The GPU-Accelerated MRI Simulator (GAMS) enables us to generate synthetic images with high-resolution detail for quantitative estimation of relaxation times. GAMS is designed to reproduce the entire MRI image acquisition pipeline, including the definition of the MRI pulse sequence in a standard Pulseq format, the input of the digital phantom and its",
+  "topics": [
+   "MRI"
+  ]
+ },
+ {
+  "kind": "paper",
+  "region": "global",
+  "title": "A Mild Neurodevelopmental Phenotype Associated with a Novel BRAT1 Variant: Expanding Genotype-Phenotype Correlations.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42930560/",
+  "source": "PubMed · Med Sci (Basel)",
+  "date": "",
+  "summary": "Background:BRAT1-related disorders constitute a continuous neurodevelopmental spectrum ranging from rigidity and multifocal seizure syndrome, lethal neonatal form (RMFSL) to milder phenotypes characterized by cerebellar involvement and variable developmental impairment. Genotype-phenotype correlations remain incompletely defined, particularly for missense variants that may retain residual function. Objectives: To characterize clinical and molecular findings in a patient with a mild BRAT1-related phenotype. Methods: An 18-year-old boy underwent clinical, neuroradiological, neurophysiological, and genetic evaluations. Exome sequencing with in silico filtering on an ataxia gene panel and parent",
+  "topics": [
+   "MRI"
+  ]
+ },
+ {
+  "kind": "paper",
+  "region": "cn",
+  "title": "A Complementary Dual-Branch Receptive Field Network for Cross-Channel-Density Motor Imagery EEG Decoding.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42930242/",
+  "source": "PubMed · Biomimetics (Basel)",
+  "date": "",
+  "summary": "Brain-computer interfaces (BCIs) enable direct communication between the brain and external devices, providing a bio-inspired link between humans and artificial systems. However, electroencephalography (EEG)-based motor imagery (MI) decoding continues to pose challenges, due to limited temporal exploitation and insufficient spatio-temporal modeling. To alleviate these limitations, a complementary dual-branch receptive field network (DBRFNet) is proposed for cross-channel-density MI-EEG decoding. Specifically, two complementary branches with distinct temporal receptive fields are designed to capture multi-scale temporal dynamics. Each branch employs a progressive spatio-temporal module integr",
+  "topics": [
+   "EEG",
+   "BCI"
+  ]
+ },
+ {
+  "kind": "paper",
+  "region": "cn",
+  "title": "MRI-Based Radiomics Model for Pretreatment Prediction of Pathological Lymph Node Metastasis in Neuroendocrine Carcinoma of the Cervix: Dual-Center Development and External Validation.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42930192/",
+  "source": "PubMed · Curr Oncol",
+  "date": "",
+  "summary": "Objectives: To develop and externally validate MRI-based radiomics and clinicoradiomics models for predicting pathological lymph node metastasis (LNM) in neuroendocrine carcinoma of the cervix (NECC). Methods: This retrospective two-center study included 133 patients who underwent pretreatment pelvic MRI and pathological nodal assessment: 93 for development and 40 for external validation. Intratumoral and peritumoral features were extracted from T2-weighted, diffusion-weighted, and contrast-enhanced T1-weighted images. Stratified nested fivefold cross-validation evaluated the complete revised selection process. Locked models were assessed for discrimination, calibration, and exploratory net ",
+  "topics": [
+   "MRI"
+  ]
+ },
+ {
+  "kind": "paper",
+  "region": "global",
+  "title": "Secondary Intracranial Hypertension During ATRA/ATO Therapy in High-Risk Acute Promyelocytic Leukemia: A Case Report and Practical Management Framework.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42930178/",
+  "source": "PubMed · Curr Oncol",
+  "date": "",
+  "summary": "All-trans retinoic acid (ATRA) combined with arsenic trioxide (ATO) is the standard of care for acute promyelocytic leukemia (APL), including high-risk disease. Secondary intracranial hypertension (SIH), historically termed pseudotumor cerebri (PTC), is a recognized but uncommon and potentially therapy-limiting complication of retinoid exposure, reported predominantly in pediatric and young-adult patients and most frequently during induction. We report a 31-year-old man with high-risk microgranular APL in whom SIH was diagnosed during the first ATRA/ATO consolidation cycle. The clinical course included progressive headache, ocular pain, pulsatile tinnitus, focusing difficulties, visual deter",
+  "topics": [
+   "MRI"
+  ]
+ },
+ {
+  "kind": "paper",
+  "region": "global",
+  "title": "Label-Free Acoustic Wave Detection of Myelin Basic Protein for Monitoring of Neurodegenerative Disease.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42930111/",
+  "source": "PubMed · Biosensors (Basel)",
+  "date": "",
+  "summary": "Myelin basic protein (MBP) is released into cerebrospinal fluid during demyelination and is therefore a promising biomarker for the detection of neurodegenerative diseases such as multiple sclerosis. For the label-free detection of MBP, we developed an antifouling aptasensor based on thickness shear mode sensing. DNA aptamers were immobilized on gold-coated piezoelectric crystals functionalized with an engineered antifouling self-assembled monolayer based on 3-(2-mercaptoethoxy)propanoic acid (HS-MEG-COOH) combined with either 2-(2-mercaptoethoxy)ethanol (HS-MEG-OH) or dithiothreitol (DTT) as spacers. The binding of recombinant human MBP to the aptamer was confirmed with a corresponding decr",
+  "topics": [
+   "MEG"
+  ]
+ },
+ {
+  "kind": "paper",
+  "region": "global",
+  "title": "Melanin Bias in Cerebral fNIRS: A Monte Carlo Study Toward Equitable Optical Brain Sensing.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42930085/",
+  "source": "PubMed · Biosensors (Basel)",
+  "date": "",
+  "summary": "Functional near-infrared spectroscopy (fNIRS) is an optical biosensing modality that transduces cortical hemodynamics into a measurable near-infrared signal, underpinning wearable brain monitors and brain-computer interfaces (BCIs). Because epidermal melanin is a strong near-infrared absorber, device sensitivity may depend on skin tone, raising an equity concern for optical neural biosensors. (1) Objective: We quantify, by Monte Carlo simulation, how epidermal melanin biases the cerebral sensitivity of continuous-wave fNIRS biosensors across the Fitzpatrick scale, and evaluate source-wavelength selection as a device-level mitigation. (2) Methods: Using a physically sourced melanin model and ",
+  "topics": [
+   "BCI"
+  ]
+ },
+ {
+  "kind": "paper",
+  "region": "global",
+  "title": "From Global Evidence to Saudi Practice: A Structured Evidence Map of the Diagnosis, Molecular Targets, and Therapeutic Strategies of Multiple Sclerosis in the Kingdom of Saudi Arabia.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42930009/",
+  "source": "PubMed · Diseases",
+  "date": "",
+  "summary": "Multiple sclerosis (MS) has shifted in a generation from an uncommon diagnosis in Saudi Arabia to a major cause of neurological disability in young adults. Available Saudi data describe clinical characteristics broadly similar to those reported elsewhere in the Middle East and do not show that Saudi patients differ from trial populations, although this does not establish equivalent efficacy or safety. How far global advances are usable in the Kingdom has not, however, been synthesized. This narrative review maps diagnostic and therapeutic strategies across five separately reported domains (clinical evidence, 2022 national consensus listing, affordability, monitoring requirement, regional dat",
+  "topics": [
+   "MRI"
+  ]
+ },
+ {
+  "kind": "paper",
+  "region": "cn",
+  "title": "Conductive Polyvinyl Alcohol-Based Hydrogels for Wearable Electronics: Preparation Strategies, Conductivity Enhancement, and Sensing Applications.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42929923/",
+  "source": "PubMed · Gels",
+  "date": "",
+  "summary": "Conductive poly(vinyl alcohol) (PVA)-based hydrogels combine electrical functionality with the mechanical compliance and biocompatibility required for wearable bioelectronics. However, simultaneously achieving mechanical robustness, stable electrical conductivity, and long-term hydration stability remains challenging. Adopting a performance trade-off perspective focused on wearable sensing, this review examines recent advances in five interconnected areas: (1) fabrication strategies, including freeze-thaw cycling, the Hofmeister effect, mechanical training, and green synthesis routes; (2) conductivity enhancement through electron-conducting pathways (carbon nanofillers, MXene, and conducting",
+  "topics": [
+   "EEG"
+  ]
+ },
+ {
+  "kind": "paper",
+  "region": "global",
+  "title": "Perinatal Brain Injuries in Preterm Infants.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42929877/",
+  "source": "PubMed · Cells",
+  "date": "",
+  "summary": "Preterm infants are vulnerable to brain injury because of immature white matter, vascular regulation, and neuroprotective mechanisms. White matter injury (WMI), formerly known as periventricular leukomalacia, is a major cause of cerebral palsy and neurocognitive impairment, while perinatal stroke is an important cerebrovascular cause of adverse outcomes. White matter injury: WMI is linked to hypoxia-ischemia, inflammation or infection, oxidative stress, and impaired oligodendrocyte maturation. It may be cystic or diffuse non-cystic, which is now the most common phenotype. Cystic lesions are strongly associated with motor impairment and spastic cerebral palsy, whereas diffuse injury is increa",
+  "topics": [
+   "MRI"
+  ]
+ },
+ {
+  "kind": "paper",
+  "region": "global",
+  "title": "Altered Neural Pitch Encoding in Vestibular Schwannoma: Evidence From Frequency-Following Responses.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42929489/",
+  "source": "PubMed · J Otolaryngol Head Neck Surg",
+  "date": "",
+  "summary": "Vestibular schwannomas (VSs) frequently cause hearing dysfunction, yet standard clinical assessments may not fully capture neural processing deficits. To determine whether unilateral VS impairs neural encoding of speech sounds, as measured by frequency-following responses (FFRs), beyond hearing loss alone. Exploratory observational case-control study with both within-subject and matched between-subject comparisons. Tertiary referral center (Antwerp University Hospital, Belgium). Twenty-three adults (mean age 53.7 ± 9.8 years; 13 men) with untreated unilateral VS and sufficient residual hearing for FFR assessment were included. Patients with prior VS treatment, neurological disease, middle ea",
+  "topics": [
+   "MRI"
+  ]
+ },
+ {
+  "kind": "paper",
+  "region": "global",
+  "title": "The impact of depressive symptoms on supraspinal pain neuromodulatory functional connectivity and therapeutic implication.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42929460/",
+  "source": "PubMed · Mol Pain",
+  "date": "",
+  "summary": "Background: Both depressive and pain symptoms are highly prevalent and relevant comorbid conditions in Veterans with Gulf War Illness (GWI). This study assessed how the severity of depressive symptoms may affect supraspinal pain modulatory functional connectivity (FC) in Veterans with GWI-related chronic Headache And body, muscle, and joint Pain conditions (GWI-HAP) and how depressive symptoms alone or paired with pain symptomology or other neuropsychological and functional assessments were able to predict supraspinal functional connectivity (FC) relevant to pain modulation. Methods: Resting state functional MRI (rs-fMRI) conducted in Veterans with GWI-HAP and moderate to severe depressive s",
+  "topics": [
+   "fMRI",
+   "MRI"
+  ]
+ },
+ {
+  "kind": "paper",
+  "region": "global",
+  "title": "Dissociable anterior and posterior beta-burst dynamics track thought disorder in schizophrenia.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42929455/",
+  "source": "PubMed · J Psychiatry Neurosci",
+  "date": "",
+  "summary": "Thought disorder in schizophrenia likely reflects disrupted maintenance of internal models during predictive processing. Beta oscillations have been proposed to index top-down predictive signalling, but prior resting-state studies have focused on spectral power, overlooking transient burst dynamics that potentially stabilize and reinstate internal representations, especially in the default mode network (DMN). Resting-state magnetoencephalography was acquired from 25 patients (7 females) with schizophrenia and 25 matched controls (8 females) between May 2024 and October 2025. Beta bursts (15-30 Hz) were extracted from source-localized cortical time series, and burst rate, duration, power, and",
+  "topics": [
+   "MEG"
+  ]
+ },
+ {
+  "kind": "paper",
+  "region": "global",
+  "title": "Assessment of Glucose Metabolism in Vivo in the Human Frontal Lobe Using Interleaved 1H and 13C MRS at 7T.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42929357/",
+  "source": "PubMed · J Magn Reson Imaging",
+  "date": "",
+  "summary": "13C magnetic resonance spectroscopy (MRS), combined with 13C-labeled substrate infusion, offers a nonionizing, minimally invasive method for assessing fluxes through the main cerebral energy metabolism pathways. However, its human application at 7T has not been fully established, especially within the frontal lobe, where alterations are linked to various neurological and psychiatric disorders. To explore the feasibility of the interleaved 1H/13C MRS protocol for quantification of cerebral glucose uptake and downstream metabolism at 7T, and to estimate the tricarboxylic acid (TCA) cycle flux (VTCA) for validation. Prospective. Three healthy volunteers (Two females and one male). 7T; single vo",
+  "topics": [
+   "神经科学"
+  ]
+ },
+ {
+  "kind": "paper",
+  "region": "global",
+  "title": "Perivascular Diffusivity and Periventricular Susceptibility Changes in Relapsing-Remitting Multiple Sclerosis: A Combined DTI-ALPS and QSM Study.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42929234/",
+  "source": "PubMed · J Magn Reson Imaging",
+  "date": "",
+  "summary": "Progressive periventricular damage in multiple sclerosis (MS) has been linked to impaired perivascular clearance and to susceptibility changes attributed to iron deposition and myelin loss. Their relationship is unclear. To compare diffusion tensor image analysis along the perivascular space (DTI-ALPS) and periventricular quantitative susceptibility mapping (QSM) between relapsing-remitting multiple sclerosis (RRMS) patients and healthy controls; and to evaluate their correlation and relationships with clinical disability (Expanded Disability Status Scale, EDSS). Retrospective case-control study. Thirty one patients with RRMS (mean age, 34.6 ± 8.4 years) and 30 age- and sex-matched healthy c",
+  "topics": [
+   "神经科学"
+  ]
+ },
+ {
+  "kind": "paper",
+  "region": "cn",
+  "title": "Cerebellar Continuous Theta Burst Stimulation for Insomnia Disorder: A Randomized Sham-Controlled Trial.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42929074/",
+  "source": "PubMed · CNS Neurosci Ther",
+  "date": "",
+  "summary": "To evaluate the effects of cerebellar continuous theta burst stimulation (cTBS) in insomnia disorder (ID). In this randomized sham-controlled trial, patients with ID received 2 weeks of active or sham cerebellar cTBS. The primary outcome was a ≥ 3-point improvement in Pittsburgh Sleep Quality Index (PSQI) score after treatment. Secondary outcomes included changes in sleep, mood, and resting-state fMRI. Seventy-two patients (51 women; mean age, 44.3 ± 11.6 years) were included in the intention-to-treat analysis. More patients in the active than sham group achieved a ≥ 3-point PSQI improvement after treatment (75.0% vs. 33.3%; adjusted OR, 6.06; 95% CI, 2.17-18.50; p < 0.001). Active cTBS redu",
+  "topics": [
+   "fMRI"
+  ]
+ },
+ {
+  "kind": "paper",
+  "region": "global",
+  "title": "Sudden Onset Occipital Headache as a Presenting Feature of Ischaemic Stroke.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42928933/",
+  "source": "PubMed · Cureus",
+  "date": "",
+  "summary": "Headache is an uncommon presenting feature of ischaemic stroke, and when it occurs, it is usually moderate and sustained rather than sudden and self-limiting. We describe the case of a 56-year-old man who presented after a single, abrupt, extremely intense occipital headache that reached 10/10 and resolved completely within about 30 seconds. The neurological examination on arrival was normal, including a National Institutes of Health Stroke Scale (NIHSS) score of 0. The patient separately reported a subtle change in vision on the left side, and formal perimetry showed a left superior homonymous quadrantanopia that had not been apparent on bedside confrontation testing. Computed tomography (C",
+  "topics": [
+   "MRI"
+  ]
+ },
+ {
+  "kind": "paper",
+  "region": "global",
+  "title": "Assessment of Early Detection Practices for Infants at Risk of Cerebral Palsy in Lebanon: A Cross-Sectional Survey of Multidisciplinary Clinicians.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42928879/",
+  "source": "PubMed · J Multidiscip Healthc",
+  "date": "",
+  "summary": "Evidence-based guidelines, published in 2017, recommend confirming a diagnosis of Cerebral Palsy (CP) before 6 months of corrected age. In Lebanon where research on early detection is lacking, diagnoses are often delayed, typically initiated only when developmental milestones are missed. To assess current practices of clinicians (pediatricians, occupational therapists, and physiotherapists) working with children aged ˂3 years who may be diagnosed with or are at risk of CP across Lebanon and to identify the most used commonly tools for early detection and surveillance programs. This cross-sectional study is based on survey distribution to clinicians working with children aged ˂3 years, at ris",
+  "topics": [
+   "MRI"
+  ]
+ },
+ {
+  "kind": "paper",
+  "region": "global",
+  "title": "Acute Transverse Myelitis Complicating the Third Trimester of Pregnancy: A Rare Case of Progressive Neurological Recovery and Favorable Obstetric Outcome.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42928819/",
+  "source": "PubMed · Cureus",
+  "date": "",
+  "summary": "Transverse myelitis (TM) is a rare immune-mediated inflammatory disorder of the spinal cord. It can result in sensory, motor, and autonomic deficits of varying severity. Its occurrence during pregnancy is uncommon and presents specific diagnostic, therapeutic, obstetric, and anesthetic challenges. We report the case of a 24-year-old para 2 woman who developed an acute febrile spinal cord syndrome at 30 weeks of gestation, characterized by rapidly progressive tetraparesis, sensory impairment, and sphincter dysfunction. Neurological deficits progressed to a nadir within the first 24 hours. Spinal magnetic resonance imaging performed on the first day demonstrated an extensive T2-hyperintense le",
+  "topics": [
+   "MRI"
+  ]
+ },
+ {
+  "kind": "paper",
+  "region": "cn",
+  "title": "Effects of dance and music training on the plasticity of the core empathy network: intra- and inter-network connectivity.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42928792/",
+  "source": "PubMed · PeerJ",
+  "date": "",
+  "summary": "Dance and music are two of the oldest and most universal forms of artistic expression, each requiring extensive training. Prolonged training is known to induce neuroplastic changes and enhance socio-emotional abilities such as empathy. The mirror neuron system (MNS) is associated with empathy; however, few studies systematically explored how dance and music training modulate the core empathy network, including subcortical regions within the limbic MNS. Resting-state functional magnetic resonance imaging (fMRI) data were obtained from 25 dancers, 24 musicians and 39 demographically matched control group (both groups are healthy). Core regions within relevant brain networks, along with key sub",
+  "topics": [
+   "fMRI",
+   "MRI"
+  ]
+ },
+ {
+  "kind": "paper",
+  "region": "global",
+  "title": "Recurrent belly dancer dyskinesia in pregnancy with postpartum resolution.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42928712/",
+  "source": "PubMed · Obstet Med",
+  "date": "",
+  "summary": "Belly dancer dyskinesia (BDD) is a rare movement disorder characterized by involuntary, repetitive contractions of the abdominal wall. Pregnancy-associated BDD is exceptionally uncommon, and recurrence in subsequent pregnancies has rarely been reported. We describe the case of a 29-year-old woman in her first pregnancy who developed involuntary abdominal movements at 16 weeks. Her medical history included hypertension and multiple uterine fibroids. Neurological assessment, laboratory investigations, and spinal magnetic resonance imaging were unremarkable, and a clinical diagnosis of BDD was established. Symptoms persisted throughout pregnancy and resolved immediately after delivery. Two year",
+  "topics": [
+   "MRI"
+  ]
+ },
+ {
+  "kind": "paper",
+  "region": "global",
+  "title": "The b-Value Dependence for Higher-Degree Spherical Harmonic Powers of the Diffusion MRI Signal Follows Stick Model Predictions in White Matter.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42928508/",
+  "source": "PubMed · Magn Reson Med",
+  "date": "",
+  "summary": "To compare the dependence on b-value of the spherical harmonic powers for the diffusion MRI signal in white matter to theoretical predictions from the stick model of water diffusion within axons. Diffusion MRI data were acquired at 3 T in three healthy adults with 10 b-value shells (b = 1000-10 000 s/mm2) and 64 directions per shell. For every b-value, the signal was expanded in spherical harmonics for all even degrees l up to l = 6, and the harmonic power for each degree was calculated. These were compared in selected white matter regions of interest to the theoretical predictions of the stick model, which depend on just two adjustable parameters: the intra-axonal diffusivity and an amplitu",
+  "topics": [
+   "MRI"
+  ]
+ },
+ {
+  "kind": "paper",
+  "region": "global",
+  "title": "Assessment of fine motor performance and motor speed in pediatric patients with juvenile myoclonic epilepsy.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42928310/",
+  "source": "PubMed · Acta Neurol Belg",
+  "date": "",
+  "summary": "In this study, we evaluated the fine motor functions of children and adolescents diagnosed with juvenile myoclonic epilepsy (JME) and compared them with those of a healthy control group. Our aim was to determine whether fine motor performance is affected in the early stages of JME, to identify the factors contributing to these impairments, and to highlight potential areas for early intervention and prevention. 47 patients with JME based on clinical history and electroencephalographic findings (mean age 14.43 ± 1.36) and 42 healthy control participants (mean age 14.19 ± 1.54) were included in our study. In the JME group, there were 72.5% females and 27.5% males, while in the control group the",
+  "topics": [
+   "EEG"
+  ]
+ },
+ {
+  "kind": "paper",
+  "region": "cn",
+  "title": "Substantia nigra iron-related alterations, white matter disruption, and functional network dysconnectivity in temporal lobe epilepsy: a multimodal neuroimaging study.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42928161/",
+  "source": "PubMed · BMC Med Imaging",
+  "date": "",
+  "summary": "Although the substantia nigra (SN) has been implicated in temporal lobe epilepsy (TLE) pathophysiology, clinical studies remain scarce. This study aimed to characterize alterations in SN susceptibility, white matter (WM) microstructure, and functional connectivity (FC), as well as their associations with cognitive functions in TLE patients. This study included 20 right-TLE (RTLE), 21 left-TLE (LTLE), and 23 healthy controls (HCs). Multimodal neuroimaging was used to assess the susceptibility, diffusion tensor imaging metrics, and FC of SN subregions. Group differences were examined by analysis of covariance. Exploratory correlation analyses were performed to evaluate associations between ima",
+  "topics": [
+   "神经科学"
+  ]
+ },
+ {
+  "kind": "paper",
+  "region": "global",
+  "title": "Dysglycemia during neonatal encephalopathy and early school-age neurodevelopmental outcomes.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42928051/",
+  "source": "PubMed · Dev Med Child Neurol",
+  "date": "",
+  "summary": "To assess the relationship between neonatal dysglycemia and early school-age neurodevelopmental outcomes after neonatal encephalopathy. A prospective cohort born at 36 weeks or more of gestation with neonatal encephalopathy underwent continuous glucose monitoring, neonatal magnetic resonance imaging, and neurodevelopmental assessments at 5 years 6 months (5 months). Linear regression analyses assessed the relationship between glucose (minimum, maximum thresholds of 8-13 mmol/l, and SD) and neurodevelopmental outcomes (Wechsler Preschool and Primary Scale of Intelligence, Fourth Edition and Child Behavior Checklist composite scores), adjusting for sex, neonatal brain injury severity, and pare",
+  "topics": [
+   "MRI"
+  ]
+ },
+ {
+  "kind": "paper",
+  "region": "cn",
+  "title": "Association of CT-Derived Skeletal Muscle Radiodensity and Index With Cerebral Small Vessel Disease: A Community-Based Study.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42928044/",
+  "source": "PubMed · Diabetes Obes Metab",
+  "date": "",
+  "summary": "Skeletal muscle composition is linked to metabolic health, but its association with cerebral small vessel disease (CSVD) remains unclear. We examined associations of CT-derived skeletal muscle radiodensity (SMD) and skeletal muscle index (SMI) with CSVD. This cross-sectional analysis included 2395 adults from the PRECISE study. SMD and SMI were measured on abdominal CT at L3. CSVD was assessed using Wardlaw and Rothwell scores. Individual MRI markers included lacunes, white matter hyperintensities, basal ganglia enlarged perivascular spaces (BG-EPVS) and cerebral microbleeds (CMBs). Logistic and ordinal logistic regression models were used, with additional covariate adjustment examined in se",
+  "topics": [
+   "MRI"
+  ]
+ },
+ {
+  "kind": "paper",
+  "region": "global",
+  "title": "Foraminal subependymal nodules and subependymal giant cell astrocytoma in children with tuberous sclerosis.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42928041/",
+  "source": "PubMed · Dev Med Child Neurol",
+  "date": "",
+  "summary": "To characterize the growth patterns of foraminal subependymal nodules (fSENs) in children with tuberous sclerosis complex (TSC), and identify high-risk periods and predictors of subependymal giant cell astrocytoma (SEGA) development. We retrospectively reviewed the records and brain imaging of children with TSC referred to our tertiary centre between 2012 and 2024. We included patients with one or more brain imaging undertaken before the age of 18 years, before neurosurgical or mTOR inhibitor treatment, and with one or more fSENs. fSEN volumes were measured and grouped according to their longitudinal volume evolution. We included 128 patients (male-to-female ratio 1.17:1) with 232 fSENs. Med",
+  "topics": [
+   "神经科学"
+  ]
+ },
+ {
+  "kind": "paper",
+  "region": "cn",
+  "title": "[Clinical and genetic characteristics of children with methylmalonic acidemia presenting as spastic paraplegia].",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42927962/",
+  "source": "PubMed · Zhonghua Yi Xue Za Zhi",
+  "date": "",
+  "summary": "The clinical data of 3 pediatric patients with methylmalonic acidemia, who were admitted to the Department of Pediatrics of the Second Hospital of Hebei Medical University from March 2019 to August 2025 and predominantly presented with spastic paraplegia, were retrospectively collected, and their clinical features (including blood homocysteine, methylmalonic acid levels and MRI findings) and genetic features were analyzed. The ages at onset of the 3 patients were 13, 9, and 13 years, respectively. Bilateral lower limb weakness was observed as the initial and predominant manifestation in cases 1 and 3, whereas gait abnormality was observed as the initial and predominant manifestation in case ",
+  "topics": [
+   "MRI"
+  ]
+ },
+ {
+  "kind": "paper",
+  "region": "cn",
+  "title": "Cortical Motor Hierarchy Disruption Is Associated With Functional Status in Early Amyotrophic Lateral Sclerosis.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42927931/",
+  "source": "PubMed · J Cachexia Sarcopenia Muscle",
+  "date": "",
+  "summary": "Amyotrophic lateral sclerosis (ALS) is a devastating neuromuscular disease characterised by progressive muscle wasting and functional decline. Although cortical motor network disruption is a hallmark of ALS, the large-scale functional hierarchy alterations and their underlying molecular mechanisms in the early stage of the disease (ALS-ES) remain poorly understood. We aimed to characterise cortical gradient changes in early-stage ALS and to examine their neurochemical and transcriptomic correlates, as well as their cross-sectional associations with clinical functional status. We recruited 97 patients with early-stage ALS, all at King's stage 1 and 94 healthy controls with comparable age and ",
+  "topics": [
+   "fMRI"
+  ]
+ },
+ {
+  "kind": "paper",
+  "region": "global",
+  "title": "[Posterior periventricular white matter lesions as a clue to the diagnosis of folate deficiency with compound heterozygous MTHFR polymorphisms: a case report].",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42927928/",
+  "source": "PubMed · Rinsho Shinkeigaku",
+  "date": "",
+  "summary": "An 18-year-old woman presented with a one-month history of persistent dizziness. Brain MRI revealed bilateral periventricular white matter lesions adjacent to the posterior horns of the lateral ventricles. Subsequently, she developed distal paresthesia of the extremities and was admitted for further evaluation. Neurological examination demonstrated abnormal ocular movements in the primary gaze position, horizontal gaze-evoked nystagmus, gait instability, and distal sensory disturbance. There was no antecedent infection, and cerebrospinal fluid analysis was unremarkable. Based on the clinical course and findings, an autoimmune-mediated brainstem-cerebellar disorder was suspected, and high-dos",
+  "topics": [
+   "MRI"
+  ]
+ },
+ {
+  "kind": "paper",
+  "region": "global",
+  "title": "[Eltrombopag-associated bilateral internal jugular vein thrombosis presenting with visual impairment and marked intracranial hypertension: a case report].",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42927925/",
+  "source": "PubMed · Rinsho Shinkeigaku",
+  "date": "",
+  "summary": "We report an 86-year-old man with immune thrombocytopenia (ITP) who developed bilateral internal jugular vein (IJV) thrombosis during treatment with eltrombopag (EPAG). He had experienced multiple cerebral infarctions over several months, but their cause had remained undetermined and warfarin therapy had been continued. Nine days before admission to our hospital, he developed visual impairment, and ophthalmologic evaluation revealed bilateral papilledema. He was admitted for further evaluation. Lumbar puncture demonstrated markedly elevated cerebrospinal fluid opening pressure (53 ‍cm H2O), suggesting intracranial hypertension, and contrast-enhanced MR venography demonstrated bilateral sigmo",
+  "topics": [
+   "MRI"
+  ]
+ },
+ {
+  "kind": "paper",
+  "region": "global",
+  "title": "Treadmill or Overground? Cognitive-Motor Interference Effects in Healthy Older Individuals.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42927919/",
+  "source": "PubMed · Eur J Neurosci",
+  "date": "",
+  "summary": "Walking is increasingly understood as a cognitively demanding activity requiring the integration of sensory processing, motor control and executive functions. When combined with a concurrent cognitive task (dual-tasking), cognitive-motor interactions may lead to changes in gait, behaviour and neurophysiology. In healthy aging, reduced motor automaticity may result in greater involvement of top-down control, increasing susceptibility to cognitive-motor interference and fall risk, even in the absence of clinical impairment. To explore real-world demands, we compared dual-tasking during outdoor overground walking and during indoor treadmill walking, using behavioural assessment of cognitive tas",
+  "topics": [
+   "EEG"
+  ]
+ },
+ {
+  "kind": "paper",
+  "region": "global",
+  "title": "Sequence-dependent differences in cervical nerve root visualization on magnetic resonance imaging in dogs.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42927903/",
+  "source": "PubMed · J Vet Med Sci",
+  "date": "",
+  "summary": "Cervical nerve roots transmit motor and sensory information and are often affected by neurologic disorders. However, their small size and proximity to surrounding tissues make clear visualization on magnetic resonance imaging (MRI) challenging. In this prospective study, three MRI protocols were compared for visualizing cervical nerve roots in clinically normal dogs. Cervical MRI was performed in five healthy Beagle dogs using three sequences: turbo spin echo with Dixon (TSE+Dixon), dual-echo steady-state with water excitation (DESS+WE), and T2-weighted sampling perfection with application-optimized contrasts using different flip angle evolutions with short tau inversion recovery (T2W-SPACE+",
+  "topics": [
+   "MRI"
+  ]
+ },
+ {
+  "kind": "paper",
+  "region": "global",
+  "title": "Epipharyngeal sensory stimulation is associated with changes in brainstem-cortical functional connectivity and circulating proteomic profiles.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42927870/",
+  "source": "PubMed · Brain Res Bull",
+  "date": "",
+  "summary": "Neurostimulation has emerged as a potential approach for modulating autonomic and neuroimmune function. Because epipharyngeal mucosa receives sensory innervation from cranial afferents, mechanical stimulation of this region may engage neural pathways. Epipharyngeal abrasive therapy (EAT) involves mechanical and chemical stimulation of the epipharyngeal mucosa and is used clinically for chronic epipharyngitis; however, its central and systemic effects remain poorly understood. This study aimed to investigate whether epipharyngeal stimulation using EAT is associated with changes in brainstem functional connectivity and circulating proteomic profiles in healthy adults. Participants underwent fi",
+  "topics": [
+   "fMRI",
+   "MRI"
+  ]
+ },
+ {
+  "kind": "paper",
+  "region": "cn",
+  "title": "Global synchrony moderates sad mood and is associated with emotional Stroop interference and somatic symptoms.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42927849/",
+  "source": "PubMed · J Affect Disord",
+  "date": "",
+  "summary": "Mood-congruent attention in depression has been studied via emotional interference tasks, including tasks comparing responses to sad and happy stimuli. Mood induction offers a way to experimentally induce sad mood in non-clinical samples and examine its association with subsequent emotional interference, including Sad-Happy interference. Previous studies have separately linked resting-state global neural dynamics (synchrony, metastability) to depressive symptoms and attentional processing. However, whether individual differences in baseline global synchrony and metastability relate to how individuals respond to sad mood remains largely unclear. This study therefore examined the relationship ",
+  "topics": [
+   "神经科学"
+  ]
+ },
+ {
+  "kind": "paper",
+  "region": "global",
+  "title": "Puberty, not age, marks the start of adolescent brain structural remodeling.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42927717/",
+  "source": "PubMed · Dev Cogn Neurosci",
+  "date": "",
+  "summary": "Many studies have shown that pubertal changes are associated with brain changes, but there lacks a clear understanding of what happens to the brain at puberty, and whether it opens the brain structural remodeling that characterizes adolescence. In this study, we used three longitudinal waves of structural MRI data from thousands of participants of the ABCD study aged 9-14 years to compare brain changes between age-matched children who had either reached or not reached a major pubertal milestone: menarche in females and fonarche (voice drop) in males. We found that only the children who had reached the milestone exhibited widespread contraction of cortical surface area and subcortical volume.",
+  "topics": [
+   "MRI"
+  ]
+ },
+ {
+  "kind": "paper",
+  "region": "global",
+  "title": "Clinical feature-guided targeted genetic testing in early-onset developmental and epileptic encephalopathy: a real-world diagnostic approach in a resource-limited setting.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42927712/",
+  "source": "PubMed · Epilepsy Behav",
+  "date": "",
+  "summary": "In low- and middle-income countries (LMICs), access to trio-based whole-exome or whole-genome sequencing is limited, which may delay genetic diagnosis in developmental and epileptic encephalopathies (DEE). We used clinical features to guide targeted genetic testing and reviewed the results through multidisciplinary discussion in a Vietnamese pediatric cohort with early-onset DEE and examined its association with treatment decision-making. We prospectively enrolled 51 children aged 0-23 months with early-onset DEE at a tertiary pediatric center in Vietnam between November 2023 and April 2025. Clinical phenotyping included seizure semiology, EEG, and brain MRI. Prior to testing, patients were ",
+  "topics": [
+   "EEG",
+   "MRI"
+  ]
+ },
+ {
+  "kind": "paper",
+  "region": "cn",
+  "title": "Resting-state functional brain changes in temporal lobe epilepsy with comorbid depression: A meta-analysis.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42927711/",
+  "source": "PubMed · Epilepsy Behav",
+  "date": "",
+  "summary": "To compare the differences in functional brain activity between patients with temporal lobe epilepsy comorbid with depressive disorder (TLE-D) and those with temporal lobe epilepsy without depressive disorder (TLE-ND) via a meta‑analysis of resting‑state functional magnetic resonance imaging (rs-fMRI) studies, and to explore the functional brain activity features associated with depressive symptoms. Systematic searches were conducted in PubMed, Embase, Web of Science, Cochrane Library, China National Knowledge Infrastructure (CNKI), and Wanfang Data from database inception to September 2026 to identify cross-sectional studies comparing rs-fMRI-derived differences in functional brain activity",
+  "topics": [
+   "fMRI",
+   "MRI"
+  ]
+ },
+ {
+  "kind": "paper",
+  "region": "global",
+  "title": "Delayed cerebral myelination in a patient with isodicentric chromosome 18 [psu idic(18)(q21.2)] mosaicism: a case report.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42927705/",
+  "source": "PubMed · Brain Dev",
+  "date": "",
+  "summary": "Isodicentric chromosome 18 is a rare structural chromosomal abnormality, with few reported cases. When the breakpoint occurs on 18q, the phenotype may overlap with 18p trisomy, proximal 18q trisomy, 18q deletion syndrome, and Pitt-Hopkins syndrome. Nonmosaic isodicentric chromosome 18 (idic18) causes a severe and often lethal phenotype; therefore, most surviving patients are mosaic. However, mosaic idic18 with an 18q breakpoint is rare, and its neuroimaging features remain poorly characterized. A 10-month-old girl was referred for developmental delay and esotropia. She had achieved head control at 3 months but could not sit or crawl. She also had microcephaly and right esotropia. Brain MRI a",
+  "topics": [
+   "MRI"
+  ]
+ },
+ {
+  "kind": "paper",
+  "region": "global",
+  "title": "Revealing contour integration-related ERPs through temporal separation from early visual evoked potentials.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42927672/",
+  "source": "PubMed · Vision Res",
+  "date": "",
+  "summary": "Contour integration has been proposed to involve coordinated processing across hierarchical cortical regions. Previous ERP studies have focused primarily on time windows around 200 ms post-contour onset, identifying the occipital N200 and N2pc, which are primarily responsible for visual awareness of integrated shapes and its reliance on spatial attention, respectively. However, findings regarding ERPs at earlier and later stages, as well as how contour properties modulate ERPs related to contour integration, remain unclear. This gap largely stems from traditional paradigms presenting contours at trial onset, confounding early visual evocation with contour integration. To resolve this, we emp",
+  "topics": [
+   "神经科学"
+  ]
+ },
+ {
+  "kind": "paper",
+  "region": "global",
+  "title": "U-NeXt: General-purpose event detection for neonatal EEG",
+  "url": "http://arxiv.org/abs/2610.32811v1",
+  "source": "arXiv",
+  "date": "2026-10-23",
+  "summary": "We developed U-NeXt, a general framework for neonatal electroencephalography (EEG) event detection based on semantic segmentation. Its convolutional encoder-decoder directly segments individual channels using long input segments to preserve temporal context. A shared architecture and training framework were developed using low-voltage interval, artefact, and seizure datasets containing 51, 98, and 278 neonates, respectively, comprising over 11,000 hours of EEG and 82,000 annotated events. Performance was compared with task-specific ConvNeXt classifiers. For seizure detection, we also evaluated U-NeXt+, trained on an expanded dataset. Both U-NeXt variants and the ConvNeXt baseline were evalua",
+  "topics": [
+   "EEG"
+  ]
+ },
+ {
+  "kind": "paper",
+  "region": "global",
+  "title": "Interpreting Supervised Pairwise Graph Representations: Local Evidence, Confounding, and Provable Post-hoc Correction",
+  "url": "http://arxiv.org/abs/2610.32611v1",
+  "source": "arXiv",
+  "date": "2026-10-23",
+  "summary": "Supervised pairwise graph representations convert pairwise predictive relations into sample-specific graphs, but graph-level accuracy does not by itself show that higher-order topology carries the signal. In a controlled Transformer error-detection task, supervised pairwise graphs outperform attention-as-adjacency (ROC-AUC $0.839$ versus $0.559$; the comparable no-confidence pair is $0.687$ versus $0.559$), but their apparent advantage over model confidence disappears after controlling for sequence length, which is almost perfectly recoverable from the pooled hidden state ($R^2=0.9995$). On published HCP Emotion ensemble graphs, signed node aggregation already acts as an ensemble of supervis",
+  "topics": [
+   "fMRI"
+  ]
+ },
+ {
+  "kind": "paper",
+  "region": "global",
+  "title": "Phase-based Edge Coupling: Modeling Overlapping Functional Architectures and High-Order Edge-to-Edge Interactions in EEG Networks",
+  "url": "http://arxiv.org/abs/2610.32286v1",
+  "source": "arXiv",
+  "date": "2026-10-23",
+  "summary": "Network neuroscience has traditionally relied on node-centric approaches, which are inherently limited in capturing the brain's overlapping functional architectures and higher-order edge-to-edge interactions. The emerging edge-centric paradigm addresses this gap by shifting the analytical unit from nodes to edges. However, while edge-centric models have been established for DTI and fMRI, comparable EEG methodologies have yet to be developed. In this study, we proposed a Phase-based Edge-centric Coupling (PEC) algorithm for EEG network modelling, where edge time series are derived from instantaneous phase differences of EEG signals and edge-to-edge coupling is quantified via normalized inner ",
+  "topics": [
+   "EEG",
+   "fMRI"
+  ]
+ },
+ {
+  "kind": "paper",
+  "region": "global",
+  "title": "CFBrainAug: Modularity-Induced Counterfactual Brain Network Augmentation for Interpretable fMRI-based Autism Diagnosis",
+  "url": "http://arxiv.org/abs/2610.32184v1",
+  "source": "arXiv",
+  "date": "2026-10-23",
+  "summary": "Machine learning on resting-state functional magnetic resonance imaging (rs-fMRI) brain networks is promising for diagnosing Autism Spectrum Disorder (ASD), but existing methods are prone to overfitting on limited training data, and their post-hoc statistical attribution offers limited clinical interpretability. We propose CFBrainAug, a counterfactual brain network learning framework that unifies data augmentation and counterfactual explanation by learning label-altered brain networks. Unlike conventional label-preserving augmentation, CFBrainAug first retrieves a label-opposite yet topologically similar candidate and then refines it under a module-number constraint. Jointly training on fact",
+  "topics": [
+   "fMRI",
+   "MRI"
+  ]
+ },
+ {
+  "kind": "paper",
+  "region": "global",
+  "title": "Controlled Evaluation of EEG Foundation Models: Random Initialisation, Band-Power and Validation-Selected Probes",
+  "url": "http://arxiv.org/abs/2610.32067v1",
+  "source": "arXiv",
+  "date": "2026-10-23",
+  "summary": "EEG foundation models report downstream gains, yet their protocols seldom include three controls. These are the same encoder untrained, spectral features fitted on the same data, and a layer picked without looking at test scores. We therefore evaluate five publicly released EEG foundation models and an in-house JEPA-style model under one protocol with all three controls and several seeds, on five benchmarks and four added task families. The controls change the reading in three ways. First, picking the probed layer by its test score raises the layer-wise peak by an average of +0.034 and reverses the peak-versus-output gap in 9 of 36 cells. Second, with the layer picked on validation, random i",
+  "topics": [
+   "EEG"
+  ]
+ }
+]
